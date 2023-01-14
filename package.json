@@ -1,0 +1,27 @@
+{
+  "name": "carboscope",
+  "version": "0.0.1",
+  "description": "A small JavaScript library to measure the carbon footprint of a web page",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/esbuild lib/index.js --bundle --minify --outfile=dist/carbonscope.js --target=chrome58,firefox57,safari11,edge16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krasimir/carboscope.git"
+  },
+  "keywords": [
+    "carbon",
+    "measure",
+    "emissions"
+  ],
+  "author": "Krasimir Tsonev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krasimir/carboscope/issues"
+  },
+  "homepage": "https://github.com/krasimir/carboscope#readme",
+  "devDependencies": {
+    "esbuild": "0.17.0"
+  }
+}

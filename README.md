@@ -6,23 +6,23 @@ A <1KB JavaScript library to measure the carbon footprint of your page.
 
 *In the browser*
 
-Copy/paste the content of [./dist/carbonscope.js](./dist/carbonscope.js) in the console on your page. Then run `CarbonScope.measure()` or `CarbonScope.measureOnce()`.
+Copy/paste the content of [./dist/carboscope.js](./dist/carboscope.js) in the console on your page. Then run `CarboScope.measure()` or `CarboScope.measureOnce()`.
 
 *In your app*
 
 Run `npm install carboscope`. Then:
 
 ```js
-import CarbonScope from 'carboscope';
+import CarboScope from 'carboscope';
 
-CarbonScope.measure(); // or CarbonScope.measureOnce();
+CarboScope.measure(); // or CarboScope.measureOnce();
 ```
 
 ## API
 
-* `carboscope.asNumber()` - get the kg CO2e as a number
-* `carboscope.measure(interval)` - calculate the emissions every two seconds and prints the result to the console. (The default value of `interval` is 2000ms)
-* `carboscope.measureOnce()` - the same as `.measure` but it does it only once.
+* `.asNumber()` - get the kg CO2e as a number
+* `.measure(interval)` - calculate the emissions every two seconds and prints the result to the console. (The default value of `interval` is 2000ms)
+* `.measureOnce()` - the same as `.measure` but it does it only once.
 
 ## Formula
 

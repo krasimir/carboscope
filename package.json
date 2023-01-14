@@ -4,7 +4,7 @@
   "description": "A small JavaScript library to measure the carbon footprint of a web page",
   "main": "lib/index.js",
   "scripts": {
-    "build": "./node_modules/.bin/esbuild lib/index.js --bundle --minify --outfile=dist/carbonscope.js --target=chrome58,firefox57,safari11,edge16"
+    "build": "./node_modules/.bin/esbuild lib/index.js --bundle --minify --outfile=dist/carboscope.js --target=chrome58,firefox57,safari11,edge16"
   },
   "repository": {
     "type": "git",

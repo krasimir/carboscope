@@ -8,7 +8,7 @@ A <1KB JavaScript library to measure the carbon footprint of your page.
 
 Copy/paste the content of [./dist/carbonscope.js](./dist/carbonscope.js) in the console on your page. Then run `CarbonScope.measure()` or `CarbonScope.measureOnce()`.
 
-*In node or in your app*
+*In your app*
 
 Run `npm install carboscope`. Then:
 

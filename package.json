@@ -1,6 +1,6 @@
 {
   "name": "carboscope",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "A small JavaScript library to measure the carbon footprint of a web page",
   "main": "lib/index.js",
   "scripts": {
